@@ -1,3 +1,4 @@
+
 // No cambies los nombres de las funciones.
 
 function devolverPrimerElemento(array) {

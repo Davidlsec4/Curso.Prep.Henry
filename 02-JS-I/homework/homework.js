@@ -42,9 +42,11 @@ function suma(x, y) {
 
 
 function resta(x, y) {
+  return x - y;
+}
   // Resta "x" de "y" y devuelve el valor
   // Tu código:
-}
+
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
