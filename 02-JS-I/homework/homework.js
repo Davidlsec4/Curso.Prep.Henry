@@ -57,45 +57,71 @@ function divide(x, y) {
 }
 
 function sonIguales(x, y) {
-  // Devuelve "true" si "x" e "y" son iguales
-  // De lo contrario, devuelve "false"
-  // Tu código:
+ if (x === y) 
+  return true;
+} else {
+  return false;
 }
 
 function tienenMismaLongitud(str1, str2) {
-  // Devuelve "true" si las dos strings tienen la misma longitud
-  // De lo contrario, devuelve "false"
-  // Tu código:
+  if (str1.lenght === str2.lenght)
+  return true;
+} else { 
+  return false;
 }
 
 function menosQueNoventa(num) {
+  if (num < 90)
+  return true;
+} else {
+  return false;
+}
+
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-}
+
 
 function mayorQueCincuenta(num) {
+  if (num > 50)
+  return true;
+} else {
+  return false;
+}
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-}
+
 
 function obtenerResto(x, y) {
-  // Obten el resto de la división de "x" entre "y"
+   // Obten el resto de la división de "x" entre "y"
   // Tu código:
+    return x % y;
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-}
+   if(num % 2 === 0) 
+  } 
+    return true;
+    else {
+    return false;
+  }
+
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-}
+  if(num % 2 === 1) {
+    return true;
+    else {
+    return false;
+    }
+  
+
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
